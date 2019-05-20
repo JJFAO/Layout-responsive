@@ -5,19 +5,39 @@ body {
 
 header {
 	background-color: #40281D;
+	display: flex;
+	justify-content: space-between;
 }
 
 header img {
 	width: 80%;
 }
+
 main {
 	background-color: #F4F4F4;
 }
+
+h2 {
+	margin: 0;
+	padding: 0;
+}
+
 .nav {
-	width: 100%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	background-color: #9E6E4D;
+}
+
+.logo {
+	visibility: hidden;
+	position: absolute;
+}
+
+.logo-short {
+	padding: 10px;
+	padding-left: 20px;
+	display: flex;
+	font-size: 100px;
 }
 
 .menu {
@@ -25,6 +45,14 @@ main {
 	justify-content: space-between;
 	width: 30%;
 	padding: 10px;
+	visibility: hidden;
+	position: absolute;
+}
+
+.hambur {
+	visibility: visible;
+	font-size: 40px;
+	padding: 5px 10px 2px;
 }
 
 .titulo {
@@ -68,10 +96,38 @@ article p {
 	article {
 		width: 48%;
 	}
+	.menu {
+		width: 40%;
+		visibility: visible;
+		position: inherit;
+	}
+		.hambur {
+	visibility: hidden;
+	position: absolute;
+	}
+	.nav {
+		justify-content: center;
+		width: 100%;
+	}
+	.logo {
+	visibility: visible;
+	position: inherit;
+	}
+	.logo-short {
+	visibility: hidden;
+	position: absolute;
+	}
+	header {
+	display: inherit;
+	}
 }
 
 @media (min-width: 992px) {
 	article {
 		width: 23%;
 	}
+		.menu {
+		width: 30%;
+	}
+
 }

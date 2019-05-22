@@ -80,12 +80,6 @@ section {
 	padding: 40px 0;
 }
 
-article a {
-	/*width: 100%;*/
-	background-color: #C34805;
-	color: #2D2B2A;
-}
-
 article img {
 	width: 100%;
 }
@@ -97,7 +91,8 @@ article p {
 .panel {
 	border-radius: 4px;
     box-shadow: 0 2px 2px rgba(0,0,0,0.2);
-    color: #333;
+   	background-color: #c348058a;
+	color: #2D2B2A;
 }
 
 /*@media (max-width: 992px) {

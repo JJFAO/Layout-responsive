@@ -53,7 +53,6 @@ h2 {
 .menu {
 	display: flex;
 	justify-content: space-between;
-	width: 30%;
 	padding: 10px;
 	visibility: hidden;
 	position: absolute;
@@ -112,7 +111,7 @@ article p {
 		width: 48%;
 	}*/
 	.menu {
-		width: 40%;
+		width: 350px;
 		visibility: visible;
 		position: inherit;
 	}
@@ -142,7 +141,7 @@ article p {
 		width: 23%;
 	}*/
 		.menu {
-		width: 30%;
+		width: 400px;
 	}
 
 }

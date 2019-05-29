@@ -145,3 +145,10 @@ article p {
 	}
 
 }
+
+footer {
+	padding: 30px;
+}
+$(function () {
+  $('[data-toggle="popover"]').popover()
+})
